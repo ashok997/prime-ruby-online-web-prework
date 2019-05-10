@@ -4,7 +4,7 @@ def prime?(num)
   else 
    flag = true
    x=2
-    while (x<=num/2 )
+    while (x<=num)
       if  (num % x ==0)
        flag =false
       break
