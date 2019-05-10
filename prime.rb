@@ -1,7 +1,7 @@
 def prime?(num)
-  if (num<=0 || num =1)
+  if (num<=0 || num ==1)
     flag=false
-  else 
+  elsif (num == 2) 
    flag = true
    x=2
     while (x<=num)
