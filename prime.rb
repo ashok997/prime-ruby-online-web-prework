@@ -3,8 +3,8 @@ def prime?(num)
     flag=false
   else 
    flag = true
-   x=2
-    while (x<=num/2 )
+    x=2
+    while (x<=num)
       if  (num % x ==0)
        flag =false
       break
