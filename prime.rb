@@ -8,4 +8,5 @@ def prime?(num)
    end
     x +=1
   end
+  return flag
 end
