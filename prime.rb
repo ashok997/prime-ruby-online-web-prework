@@ -5,6 +5,6 @@ def prime?(num)
   if  (num % x ==0)
     flag =false
     break
-  end
+  #end
   x +=1
 end
